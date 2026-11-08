@@ -6,12 +6,6 @@ Node.js bridge that streams p5.js sketches to a LiveGrid LED panel over UDP. The
 
 This project streams a rainforest-themed p5.js sketch from your laptop to a LiveGrid LED panel over Wi-Fi. A small Node.js server acts as a WebSocket-to-UDP bridge: the browser sends each frame as an RGB buffer over a local WebSocket connection, and the server repackages it into UDP packets with the LiveGrid 18-byte header format and sends them to the panel.
 
-## Demo
-
-![LiveGrid rainforest sketch on panel](IMG_7296.mp4)
-
-Short video (8 seconds) of the rainforest sketch streaming to the LiveGrid panel.
-
 ## Hardware
 
 | Component | Details |

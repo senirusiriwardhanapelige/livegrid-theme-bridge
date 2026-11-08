@@ -3,7 +3,8 @@
 Node.js bridge that streams p5.js sketches to a LiveGrid LED panel over UDP. The panel runs at 78x78 pixels and receives raw OM v1 pixel frames on port 4510.
 
 
-<img width="360" height="367" alt="IMG_7296_tiny" src="https://github.com/user-attachments/assets/f7b3b82c-0464-44f1-adbd-ad05b2b50d61" />
+<img width="480" height="490" alt="IMG_7296_small" src="https://github.com/user-attachments/assets/a0a801af-b688-44ed-a0be-1d45a2fbad70" />
+
 
 
 ## Project Overview

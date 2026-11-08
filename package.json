@@ -1,0 +1,23 @@
+{
+  "name": "livegrid-theme-bridge",
+  "version": "1.0.0",
+  "description": "Node.js bridge that streams p5.js sketches to a LiveGrid LED panel over UDP",
+  "main": "bridge-server.js",
+  "scripts": {
+    "start": "node bridge-server.js",
+    "dev": "node bridge-server.js"
+  },
+  "keywords": [
+    "livegrid",
+    "led-panel",
+    "udp",
+    "p5js",
+    "streaming"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}

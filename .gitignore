@@ -1,0 +1,16 @@
+node_modules/
+.env
+*.log
+npm-debug.log*
+yarn-*.log
+build/
+dist/
+*.bin
+*.hex
+*.elf
+*.o
+*.d
+.vscode/
+.idea/
+serial_output.txt
+IMG_7296_high.gif

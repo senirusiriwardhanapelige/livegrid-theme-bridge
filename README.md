@@ -2,6 +2,10 @@
 
 Node.js bridge that streams p5.js sketches to a LiveGrid LED panel over UDP. The panel runs at 78x78 pixels and receives raw OM v1 pixel frames on port 4510.
 
+
+https://github.com/user-attachments/assets/7194ec0f-8896-41bf-85e0-083da0a141b3
+
+
 ## Project Overview
 
 This project streams a rainforest-themed p5.js sketch from your laptop to a LiveGrid LED panel over Wi-Fi. A small Node.js server acts as a WebSocket-to-UDP bridge: the browser sends each frame as an RGB buffer over a local WebSocket connection, and the server repackages it into UDP packets with the LiveGrid 18-byte header format and sends them to the panel.
